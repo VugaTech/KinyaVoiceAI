@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+librosa
+soundfile
+transformers
+datasets
+torch
+torchaudio
+scipy
+wandb
+mlflow
+numpy
+dv
+pandas
+python-dotenv
+tqdm
