@@ -32,7 +32,7 @@ This project consists of the following main components:
 - **Python**, **PyTorch**, **Hugging Face Transformers**
 - **Wav2Vec2**, **Whisper**, **ESPnet**
 - **FastAPI**, **Docker**, **DVC**
-- _(Optional frontend:)_ **Next.js**, **TailwindCSS**
+- **Next.js**, **TailwindCSS**
 
 ---
 
@@ -66,7 +66,7 @@ We welcome contributions from the community, especially from native speakers, ML
 ## 📫 Contact
 
 For questions, collaborations, or feedback:
-📧 **[team@kinyvoice.ai](mailto:mahingarodin@gmail.com)** _(Replace with actual contact if available)_
+📧 **[team@kinyvoice.ai](mailto:mahingarodin@gmail.com)**
 🌐 GitHub Organization: [KinyaVoiceAI](https://github.com/KinyaVoiceAI)
 
 ---
