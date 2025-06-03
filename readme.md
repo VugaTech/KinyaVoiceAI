@@ -22,8 +22,8 @@ This project consists of the following main components:
 
 | Module                 | Description                                                       | Repository / Folder                                                         |
 | ---------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| **Backend (ASR)**      | Data preprocessing, model training, evaluation, and API serving   | [`kinyvoice-be`](https://github.com/KinyaVoiceAI/kinyvoice-be)              |
-| **Frontend (Demo UI)** | Web-based interface for testing and demonstrating ASR performance | [`kinyvoice-fe`](https://github.com/KinyaVoiceAI/kinyvoice-fe) _(optional)_ |
+| **Backend (ASR)**      | Data preprocessing, model training, evaluation, and API serving   | [`kinyvoice-be`](https://github.com/KinyaVoiceAI/KinyVoiceAI)              |
+| **Frontend (Demo UI)** | Web-based interface for testing and demonstrating ASR performance | [`kinyvoice-fe`](https://github.com/KinyaVoiceAI/KinyVoiceAI-fe) _(optional)_ |
 
 ---
 
@@ -42,7 +42,7 @@ Each module contains its own setup and usage instructions.
 Start by exploring the backend repository:
 
 ```bash
-git clone https://github.com/KinyaVoiceAI/kinyvoice-be.git
+git clone https://github.com/KinyaVoiceAI/KinyVoiceAI.git
 ```
 
 > For a live demo or UI interface, check the `kinyvoice-fe` repo.
@@ -66,7 +66,7 @@ We welcome contributions from the community, especially from native speakers, ML
 ## 📫 Contact
 
 For questions, collaborations, or feedback:
-📧 **[team@kinyvoice.ai](mailto:mahingarodin@gmail.com)**
+📧 **[mahingarodin@gmail.com](mailto:mahingarodin@gmail.com)**
 🌐 GitHub Organization: [KinyaVoiceAI](https://github.com/KinyaVoiceAI)
 
 ---
