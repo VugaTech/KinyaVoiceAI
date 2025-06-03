@@ -8,11 +8,11 @@
 
 To develop an end-to-end ASR pipeline that supports accurate transcription of Kinyarwanda audio across **five high-impact domains**:
 
-- 🏥 Health  
-- 🏛️ Government  
-- 📚 Education  
-- 💰 Financial Services  
-- 🌾 Agriculture  
+- 🏥 Health
+- 🏛️ Government
+- 📚 Education
+- 💰 Financial Services
+- 🌾 Agriculture
 
 ---
 
@@ -20,10 +20,10 @@ To develop an end-to-end ASR pipeline that supports accurate transcription of Ki
 
 This project consists of the following main components:
 
-| Module         | Description                                     | Repository / Folder |
-|----------------|-------------------------------------------------|---------------------|
-| **Backend (ASR)** | Data preprocessing, model training, evaluation, and API serving | [`kinyvoice-be`](https://github.com/KinyaVoiceAI/kinyvoice-be) |
-| **Frontend (Demo UI)** | Web-based interface for testing and demonstrating ASR performance | [`kinyvoice-fe`](https://github.com/KinyaVoiceAI/kinyvoice-fe) *(optional)* |
+| Module                 | Description                                                       | Repository / Folder                                                         |
+| ---------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Backend (ASR)**      | Data preprocessing, model training, evaluation, and API serving   | [`kinyvoice-be`](https://github.com/KinyaVoiceAI/kinyvoice-be)              |
+| **Frontend (Demo UI)** | Web-based interface for testing and demonstrating ASR performance | [`kinyvoice-fe`](https://github.com/KinyaVoiceAI/kinyvoice-fe) _(optional)_ |
 
 ---
 
@@ -32,7 +32,7 @@ This project consists of the following main components:
 - **Python**, **PyTorch**, **Hugging Face Transformers**
 - **Wav2Vec2**, **Whisper**, **ESPnet**
 - **FastAPI**, **Docker**, **DVC**
-- *(Optional frontend:)* **Next.js**, **TailwindCSS**
+- _(Optional frontend:)_ **Next.js**, **TailwindCSS**
 
 ---
 
@@ -43,7 +43,7 @@ Start by exploring the backend repository:
 
 ```bash
 git clone https://github.com/KinyaVoiceAI/kinyvoice-be.git
-````
+```
 
 > For a live demo or UI interface, check the `kinyvoice-fe` repo.
 
@@ -51,9 +51,9 @@ git clone https://github.com/KinyaVoiceAI/kinyvoice-be.git
 
 ## 📄 Licensing & Credits
 
-* **Dataset:** Digital Umuganda (funded by the **Gates Foundation**)
-* **Models:** Built using open-source toolkits and research frameworks
-* **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Dataset:** Digital Umuganda (funded by the **Gates Foundation**)
+- **Models:** Built using open-source toolkits and research frameworks
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
@@ -66,9 +66,9 @@ We welcome contributions from the community, especially from native speakers, ML
 ## 📫 Contact
 
 For questions, collaborations, or feedback:
-📧 **[team@kinyvoice.ai](mailto:mahingarodin@gmail.com)** *(Replace with actual contact if available)*
+📧 **[team@kinyvoice.ai](mailto:mahingarodin@gmail.com)** _(Replace with actual contact if available)_
 🌐 GitHub Organization: [KinyaVoiceAI](https://github.com/KinyaVoiceAI)
 
 ---
 
-> *Bringing Kinyarwanda to the forefront of voice AI.*
+> _Bringing Kinyarwanda to the forefront of voice AI._
