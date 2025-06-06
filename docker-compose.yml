@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000" # Expose API port
+    volumes:
+      - ./data:/app/data # Mount data directory
+      - ./models:/app/models # Mount models directory
+      - ./logs:/app/logs # Mount logs directory
+    environment:
+      - ENV_FILE=.env # Load environment variables
+
+  # Optional: Add a database service if needed
+  # db:
+  #   image: postgres:13
+  #   environment:
+  #     - POSTGRES_USER=kinyavoiceai
+  #     - POSTGRES_PASSWORD=securepassword
+  #     - POSTGRES_DB=kinyavoiceai_db
+  #   volumes:
+  #     - pgdata:/var/lib/postgresql/data
+
+# volumes:
+#   pgdata:

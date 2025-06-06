@@ -1,0 +1,25 @@
+audio:
+  sample_rate: 16000 # Target sample rate for audio (Hz)
+  max_length: 30 # Maximum audio length in seconds
+  normalize: true # Normalize audio (e.g., to -1-dot-1.0 dB
+  trim_silence: true # Trim silence from audio
+
+feature_extraction:
+  type: "mfcc" # Feature type (e.g., mfcc, fbank, or log-mel-spectrogram)
+  n_mfcc: 13 # Number of MFCC coefficients (if using MFCC)
+  n_mels: 80 # Number of mel filters (if using log-mel-spectrogram)
+  win_length: 25 # Window length in ms
+  hop_length: 10 # Hop length in ms
+
+augmentation:
+  speed_perturbation: [0.9, 1.1] # Speed perturbation range (e.g., 0.9x to 1.1x speed)
+  noise_injection: true # Add background noise
+  noise_level: 0.005 # Noise level (amplitude)
+  spec_augment: true # Apply SpecAugment
+  spec_augment_freq_masks: 2 # Number of frequency masks
+  spec_augment_time_masks: 5 # Number of time masks
+
+text:
+  lowercase: true # Convert text to lowercase
+  remove_punctuation: true # Remove punctuation from transcriptions
+  tokenizer: "char" # Tokenizer type (char or subword)
